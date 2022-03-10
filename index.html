@@ -76,9 +76,54 @@
             <div id="reported">
                 <h1>Reported posts</h1>
             </div>
-        </main>
-        <footer></footer>
 
+
+
+            <section class="Questions_Bank container mt-5">
+                <div class="accordion" id="accordionExample">
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="headingOne">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                          How Does Javascript Work?
+                        </button>
+                      </h2>
+                      <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                          <strong>In My Opinion: </strong> Javascript is a Scripting, High-level, Single-threded and Interpreted language. It is Code Reads Browser Engine <code> (Popular Javascript Engine: V8, Spyder Monkey) </code>  And Run Line By Line But Most of Modern Browsers Use a Technology as: <code> JIT (Just in Time) </code> compilation. This Technology Compiles Javascript Code Run And Excutes. 
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        Differences Between Local Storage And Session Storage?
+                        </button>
+                      </h2>
+                      <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                         <code><strong>Local Storage: </strong></code> <br> 
+                         1. Accessed On Clients Side <br> 
+                         2. Data Still Until Delete <br>
+                         3. Supported Maximum 5MB Data Size <br>
+                         <hr>
+                         <code><strong>Session Storage: </strong></code> <br> 
+                         1. Accessed On Clients Side <br> 
+                         2. Data Still Until Tab Is Closed <br>
+                         3. Supported Maximum 5MB Data Size <br>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+            </section>
+        </main>
+
+        <footer class="mt-5 text-center">
+        <p class="mt-5"> All Rights Reserved | <span class="text-primary">Ahshan Habib</span> </p>
+        </footer>
+
+
+        <!-- Botstrap JS CDN Link  -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
         <!-- add javascript  file  -->
         <script src="./js/app.js"></script>
     </body>
