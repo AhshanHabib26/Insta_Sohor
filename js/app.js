@@ -39,13 +39,15 @@ const switchTab = (id) => {
         document.getElementById( "liked" ).style.display = "block";
         document.getElementById( "posts" ).style.display = "none";
         document.getElementById( "reported" ).style.display = "none";
-
+        document.getElementById( "questionsSec" ).style.display = "none";
+        document.getElementById( "footerSec" ).style.display = "none";
         displayLikedPosts();
     } else {
         document.getElementById( "reported" ).style.display = "block";
         document.getElementById( "posts" ).style.display = "none";
         document.getElementById( "liked" ).style.display = "none";
-
+        document.getElementById( "questionsSec" ).style.display = "none";
+        document.getElementById( "footerSec" ).style.display = "none";
         displayReportedPosts();
     }
 };
@@ -165,5 +167,4 @@ const loadPosts = async () =>{
   posts = await data.json();
   showPosts(posts);
 }
-
 loadPosts();
